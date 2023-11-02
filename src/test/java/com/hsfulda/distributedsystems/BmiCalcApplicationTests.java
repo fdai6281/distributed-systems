@@ -1,4 +1,4 @@
-package com.distributedsystems.bmicalc;
+package com.hsfulda.distributedsystems;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

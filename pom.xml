@@ -8,11 +8,11 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.distributed-systems</groupId>
-	<artifactId>bmi-calc</artifactId>
+	<groupId>com.hs-fulda</groupId>
+	<artifactId>distributed-systems</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bmi-calc</name>
-	<description>BMI Calculator</description>
+	<name>distributed-systems</name>
+	<description>Distributed Systems</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
