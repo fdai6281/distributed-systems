@@ -21,12 +21,18 @@ public class WeekOneController {
         this.phoneNumberRepository = phoneNumberRepository;
     }
 
+    /*
+     * Author : Nick Stolbov, Matrikel Nr.: 1269907
+     * Created: 02.11.2023
+     */
+    // Returns correct html with inserted entries from DB, BE: 2
     @GetMapping(defaultRoute)
     public String getPage(Model model) {
         model.addAttribute("phoneNumbers", getAllPhoneNumbers());
         return defaultRoute;
     }
 
+    // Takes data from frontend and saves it in DB, BE: 1
     @PostMapping(value = defaultRoute + "/save", consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     public String savePhoneNumber(@ModelAttribute PhoneNumberModel model) {
         PhoneNumberDBEntity entity = new PhoneNumberDBEntity();
