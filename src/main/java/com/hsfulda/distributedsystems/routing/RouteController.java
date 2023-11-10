@@ -11,7 +11,7 @@ public class RouteController {
     public static final String root = "index";
 
     // Use to automatically redirect on startup when working on a specific exercise
-    public static final String startRoute = Routes.bmiCalc;
+    public static final String startRoute = root;
 
     @GetMapping("/")
     public String rootRoute(Model model) {
